@@ -2,7 +2,7 @@ from base/archlinux
 
 maintainer Max <gonzih at gmail dot com> Gonzih
 
-run echo version 0.0.2
+run echo version 0.0.1
 
 run pacman-key --init
 run pacman-key --refresh-keys
