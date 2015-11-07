@@ -6,7 +6,7 @@ run echo version 0.0.1
 
 run pacman-key --init
 run pacman-key --refresh-keys
-run pacman -Suy emacs git tmux vim mc fish --noconfirm
+run pacman -Suy emacs git tmux vim mc fish doge --noconfirm
 
 run useradd -m gnzh
 
