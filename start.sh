@@ -6,6 +6,6 @@ session=main
 window=${session}:1
 pane=${window}.0
 
-tmux send-key -t $pane "emacs -nw ." Enter
+tmux -2 -u send-key -t $pane "emacs -nw ." Enter
 
-exec tmux attach -t $session
+exec tmux -2 -u attach -t $session
