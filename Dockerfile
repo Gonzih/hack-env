@@ -33,4 +33,6 @@ add start.sh /home/gnzh/start.sh
 
 workdir /src
 
+run emacs --daemon && emacsclient --eval "(kill-emacs)"
+
 cmd sh ~/update.sh && sh ~/start.sh
