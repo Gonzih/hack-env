@@ -20,6 +20,7 @@ env HOME /home/gnzh
 
 # Spacemacs
 run git clone --recursive https://github.com/syl20bnr/spacemacs ~/.emacs.d
+run emacs --daemon && emacsclient --eval "(kill-emacs)"
 
 # Fish
 run mkdir -p ~/.config/
@@ -32,7 +33,5 @@ add update.sh /home/gnzh/update.sh
 add start.sh /home/gnzh/start.sh
 
 workdir /src
-
-run emacs --daemon && emacsclient --eval "(kill-emacs)"
 
 cmd sh ~/update.sh && sh ~/start.sh
