@@ -29,6 +29,9 @@ run git clone https://github.com/Gonzih/.fish.git ~/.config/fish
 # MC
 run git clone https://github.com/Gonzih/.mc.git ~/.mc
 
+# Vim
+run git clone https://github.com/Gonzih/.vim.git ~/.vim
+
 add update.sh /home/gnzh/update.sh
 add start.sh /home/gnzh/start.sh
 
